@@ -279,7 +279,7 @@ prism {
         }
 
         neoforge {
-            loaderVersion = "26.3.0.8-beta"
+            loaderVersion = "26.3.0.37-beta"
             loaderVersionRange = "[4,)"
 
             dependencies {

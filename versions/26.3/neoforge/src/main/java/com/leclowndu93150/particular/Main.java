@@ -16,7 +16,7 @@ import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 public class Main {
 
     public Main(IEventBus eventBus, ModContainer modContainer) {
-        modContainer.registerConfig(ModConfig.Type.COMMON, ParticularConfig.COMMON_SPEC);
+        modContainer.registerConfig(ModConfig.Type.LOCAL, ParticularConfig.COMMON_SPEC);
         
         NeoForgeParticles.getRegistry().register(eventBus);
         
